@@ -1,1 +1,3 @@
 # ScrapyProjects
+
+Small starting projects
