@@ -1,0 +1,37 @@
+[
+    {
+        "image": "https://cdn.chec.io/merchants/18101/images/df8255dfccf0cbb191bddce574f8a58eb85dd9c25ea915d2834bc|loafer_edit.png",
+        "name": "Oxford Loafers",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi accusamus rem assumenda incidunt enim ea, sint, soluta explicabo deserunt sit officia veritatis ad illum porro. Incidunt enim ea, sint, soluta explicabo deserunt.",
+        "price": "$39.99",
+        "size": " 6 , 6.5 , 7 , 7.5 , 8 , 8.5 , 9 , 9.5 , 10 , 10.5 , 11 "
+    },
+    {
+        "image": "https://cdn.chec.io/merchants/18101/images/ebd9a5d5ff6dae26080afe7624d3ebbce110fc9f5ea915a466b98|pants_edit 1.png",
+        "name": "Ankle-length Slack",
+        "description": "Shorts in thick cotton denim. High paper-bag waist with elasticized waistband, removable tie belt, and zip fly with buttons. Front pockets, back pockets, and sewn foldover cuffs.",
+        "price": "$34.99",
+        "size": " S , M , L "
+    },
+    {
+        "image": "https://cdn.chec.io/merchants/18101/images/7a4b3ff539878cee33b963aa983119282f8fd3d25ea87a442580e|hat_edit.png",
+        "name": "White Baseball Cap",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi accusamus rem assumenda incidunt enim ea, sint, soluta explicabo deserunt sit officia veritatis ad illum porro. Incidunt enim ea, sint, soluta explicabo deserunt.",
+        "price": "$10.99",
+        "size": " O/S Fits All "
+    },
+    {
+        "image": "https://cdn.chec.io/merchants/18101/images/c8325d0c6663e63f7ecc8af7eede5a388569a5d95ea915f9770fb|bikini_edit.png",
+        "name": "Triangle Bikini Top",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi accusamus rem assumenda incidunt enim ea, sint, soluta explicabo deserunt sit officia veritatis ad illum porro. Incidunt enim ea, sint, soluta explicabo deserunt.",
+        "price": "$20.99",
+        "size": " Small , Medium , Large "
+    },
+    {
+        "image": "https://cdn.chec.io/merchants/18101/images/d369b1cf1f71c85252a1ce0c80392e5c736b769e5ea9161b589b5|blazer_edit 1.png",
+        "name": "Short Blazer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi accusamus rem assumenda incidunt enim ea, sint, soluta explicabo deserunt sit officia veritatis ad illum porro. Incidunt enim ea, sint, soluta explicabo deserunt.",
+        "price": "$40.99",
+        "size": " Small , Medium , Large "
+    }
+]
