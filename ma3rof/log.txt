@@ -1,0 +1,1014 @@
+INFO: Scrapy 2.6.1 started (bot: ma3rof)
+INFO: Versions: lxml 4.2.6.0, libxml2 2.9.8, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.7.13 (default, Apr 24 2022, 01:04:09) - [GCC 7.5.0], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform Linux-5.4.188+-x86_64-with-Ubuntu-18.04-bionic
+INFO: Overridden settings:
+{'BOT_NAME': 'ma3rof',
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'ma3rof.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['ma3rof.spiders']}
+DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+INFO: Telnet Password: 588e5872bcdbe662
+INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO: Enabled item pipelines:
+[]
+INFO: Spider opened
+INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO: Telnet console listening on 127.0.0.1:6023
+DEBUG: Attempting to acquire lock 139688812143952 on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG: Lock 139688812143952 acquired on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG: Attempting to acquire lock 139688812145616 on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+DEBUG: Lock 139688812145616 acquired on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+DEBUG: Starting new HTTPS connection (1): publicsuffix.org:443
+DEBUG: https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 None
+DEBUG: Attempting to release lock 139688812145616 on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+DEBUG: Lock 139688812145616 released on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+DEBUG: Attempting to release lock 139688812143952 on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG: Lock 139688812143952 released on /root/.cache/python-tldextract/3.7.13.final__usr__7d8fdf__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+DEBUG: Crawled (200) <GET https://maroof.sa/robots.txt> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Crawled (200) <GET https://maroof.sa/118883> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/121253> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/15908> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/118883>
+{'Id': 118883, 'NameAr': 'ستديو ديفا للتصوير النسائي', 'Name': None, 'TypeName': 'تصوير', 'Email': 'jojoalhussini22@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/diva_studio1', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/121253>
+{'Id': 121253, 'NameAr': 'شروق علي', 'Name': 'Shrouqali', 'TypeName': 'تصوير', 'Email': 'Shrouqali@hotmail.com', 'Website': 'https://www.instagram.com/shrouq.alahmadi/', 'Instgram': 'https://www.instagram.com/shrouq.alahmadi/', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/1491> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true> (referer: None)
+DEBUG: Scraped from <200 https://maroof.sa/15908>
+{'Id': 15908, 'NameAr': 'متجر ميرنار', 'Name': 'Mernar Store', 'TypeName': 'تسويق إلكتروني', 'Email': 'mernar.care@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/mernar.store', 'Twiter': 'https://twitter.com/MernarCare'}
+DEBUG: Scraped from <200 https://maroof.sa/1491>
+{'Id': 1491, 'NameAr': 'جلامور بيوتي', 'Name': 'glamourbeauty', 'TypeName': 'تسويق إلكتروني', 'Email': 'info@glamourbeauty.net', 'Website': 'https://glamourbeauty.com', 'Instgram': 'https://instagram.com/glamourbeautysa', 'Twiter': 'https://twitter.com/glamfactoryksa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/156578> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/156578>
+{'Id': 156578, 'NameAr': 'متجر هدايا الشرقية ', 'Name': None, 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Shahadalialshammari@icloud.com', 'Website': None, 'Instgram': 'https://www.instagram.com/p/CGaiWb3HTNN/?igshid=xj7g1yzbpi3t', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/109283> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/213294> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/109283>
+{'Id': 109283, 'NameAr': 'مكتب ابرام العقاري', 'Name': 'IBRAM BROKE OFFICE', 'TypeName': 'العقارات', 'Email': 'ibramaqar@gmail.com', 'Website': 'Https://wa.me/966531030692', 'Instgram': None, 'Twiter': 'https://twitter.com/ejar_saudi'}
+DEBUG: Scraped from <200 https://maroof.sa/213294>
+{'Id': 213294, 'NameAr': 'مؤسسة تقنيات رقمية للتجارة', 'Name': 'Techno', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'fz9nku@gmail.com', 'Website': 'https://sa-techno.com/', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/151380> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/57007> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/151380>
+{'Id': 151380, 'NameAr': 'تنمية البنيان للخدمات العقارية', 'Name': 'AlBunyan Development for Real estate services ', 'TypeName': 'العقارات', 'Email': 'Albunyan.development@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/bdres_', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/57007>
+{'Id': 57007, 'NameAr': 'متجر رواء تغليف مصاحف', 'Name': 'owuisu', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'mesho12347282@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/owuisu', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/161775> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/113729> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/161775>
+{'Id': 161775, 'NameAr': 'متجر غصن للهدايا', 'Name': 'Gosn gifts', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Zainab.alkhateeb@hotmail.com', 'Website': 'https://instagram.com/gosn_gifts?igshid=l9iuvujvmpj0', 'Instgram': 'https://instagram.com/gosn_gifts?igshid=l9iuvujvmpj0', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/111978> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/113729>
+{'Id': 113729, 'NameAr': 'متجر النجلاء', 'Name': 'alnajlaa store', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'alnjlaastore@outlook.com', 'Website': 'https://www.instagram.com/classprettyksa/?igshid=1m9y7ottuq6z7', 'Instgram': 'https://www.instagram.com/classprettyksa/?igshid=1m9y7ottuq6z7', 'Twiter': 'https://twitter.com/ClassprettyK'}
+DEBUG: Scraped from <200 https://maroof.sa/111978>
+{'Id': 111978, 'NameAr': 'شموع بنو ', 'Name': 'BNO CANDLES', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Bnocandless@gmail.com', 'Website': 'https://salla.sa/bnocandles', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/157003> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/63165> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/48145> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/80841> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/157003>
+{'Id': 157003, 'NameAr': 'تصوير مواليد نوف محمد ', 'Name': 'noofmohamed0', 'TypeName': 'تصوير', 'Email': 'noof.aloqili@Gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/noofmohamed0', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/63165>
+{'Id': 63165, 'NameAr': 'منيره الناصر', 'Name': 'Muneera AlNasser', 'TypeName': 'أخرى', 'Email': 'muneera.alnasser0@gmail.com', 'Website': 'https://www.snapchat.com/add/muneera_n0', 'Instgram': 'https://instagram.com/muneera_n0', 'Twiter': 'https://twitter.com/Muneera_N0'}
+DEBUG: Scraped from <200 https://maroof.sa/48145>
+{'Id': 48145, 'NameAr': 'مشروع رسام', 'Name': '', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Azharzhzh@gmail.com', 'Website': 'https://instagram.com/Azhary1198', 'Instgram': 'https://instagram.com/Azhary1198', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/88214> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/80841>
+{'Id': 80841, 'NameAr': 'نوره ايهيرب', 'Name': 'Iherb norah', 'TypeName': 'حلول إلكترونية', 'Email': 'Iherb.norah@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/iherb_norah', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/88214>
+{'Id': 88214, 'NameAr': 'وسيطه للطلب من المواقع الاجنبيه', 'Name': 'medium to order from all  global sites', 'TypeName': 'حلول إلكترونية', 'Email': 'wejdan7100@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/we_11000', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/218596> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/42958> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/91629> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/218596>
+{'Id': 218596, 'NameAr': 'ماكا', 'Name': 'MkSTORE', 'TypeName': 'حلول إلكترونية', 'Email': 'Mkaih@gmail.com', 'Website': 'https://t.me/MC_Acounts', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/42958>
+{'Id': 42958, 'NameAr': 'متجر زهور البيوني', 'Name': 'The Paeony Florist ', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'the.paeony@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/the.paeony', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/91629>
+{'Id': 91629, 'NameAr': 'تاجر الدلز', 'Name': 'DlockSeller', 'TypeName': 'حلول إلكترونية', 'Email': 'DlockSellerofficial@gmail.com', 'Website': 'https://salla.sa/WaSSaTH', 'Instgram': 'https://instagram.com/dlockseller', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/47888> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/43249> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/149539> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/47888>
+{'Id': 47888, 'NameAr': 'مورفوه', 'Name': 'Morpho', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'arwana1413ag@gmail.com', 'Website': 'https://www.instagram.com/morpho_12', 'Instgram': 'https://www.instagram.com/morpho_12', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/131990> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/56267> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/43249>
+{'Id': 43249, 'NameAr': ' تنسيق ورد وهدايا وحفلات', 'Name': None, 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'peee@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/gift_riyad', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/149539>
+{'Id': 149539, 'NameAr': 'الترميز المكاني ', 'Name': 'GEOCODE', 'TypeName': 'حلول إلكترونية', 'Email': 'Contact@geocode.sa', 'Website': 'https://geocode.sa/', 'Instgram': None, 'Twiter': 'https://twitter.com/GeocodeSa'}
+DEBUG: Scraped from <200 https://maroof.sa/131990>
+{'Id': 131990, 'NameAr': 'بهيج', 'Name': 'Bahij', 'TypeName': 'تصميم وطباعة', 'Email': 'Bahiij.sa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/bahij.sa', 'Twiter': 'https://twitter.com/bahij_sa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/6419> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/234576> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/56267>
+{'Id': 56267, 'NameAr': 'انكبل بيت الطباعة', 'Name': 'Inkable Print House', 'TypeName': 'تصميم وطباعة', 'Email': 'inkable.printhouse@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/inkable_printhouse', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/74104> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/43529> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/6419>
+{'Id': 6419, 'NameAr': 'أوراق العروس', 'Name': 'Paper of Bride', 'TypeName': 'تصميم وطباعة', 'Email': 'p.brideksa@gmail.com', 'Website': 'https://linktr.ee/p.bride', 'Instgram': 'https://instagram.com/p.bride', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/234576>
+{'Id': 234576, 'NameAr': 'مكتب  كاش المودة للخدمات العقارية', 'Name': 'Cash AlMawadda Real Estate Services  Office', 'TypeName': 'العقارات', 'Email': 'info@cmreso.com.sa', 'Website': 'https://cmreso.com.sa', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/43092> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/74104>
+{'Id': 74104, 'NameAr': 'روشي', 'Name': 'ROCHE', 'TypeName': 'تصميم وطباعة', 'Email': 'iroochei@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/iroochei', 'Twiter': 'https://twitter.com/iroochei'}
+DEBUG: Scraped from <200 https://maroof.sa/43529>
+{'Id': 43529, 'NameAr': 'متجر بطاقة', 'Name': None, 'TypeName': 'تصميم وطباعة', 'Email': 'asool_1111@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/mhsyn5258', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/40092> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/93768> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/43092>
+{'Id': 43092, 'NameAr': 'عالم خلود', 'Name': 'KHLOUD WORLD', 'TypeName': 'تصميم وطباعة', 'Email': 'smart1281k@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/khloud_alhafthi', 'Twiter': 'https://twitter.com/kHLOUD_ALHAFTHI'}
+DEBUG: Scraped from <200 https://maroof.sa/40092>
+{'Id': 40092, 'NameAr': 'فلاتر سناب شات ب 60 ريال', 'Name': None, 'TypeName': 'تصميم وطباعة', 'Email': 'mnoo2323@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/fltarcom', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/15752> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/17222> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/93768>
+{'Id': 93768, 'NameAr': 'اسماء انفوجرافيك', 'Name': 'asma infographic', 'TypeName': 'تصميم وطباعة', 'Email': 'venus1sam@gmail.com', 'Website': 'https://www.instagram.com/asmainfog/', 'Instgram': 'https://www.instagram.com/asmainfog/', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/124911> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/91462> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/169670> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/15752>
+{'Id': 15752, 'NameAr': 'ترف للخياطة والمشغولات اليدوية', 'Name': None, 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'adil.mashhour@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/_t_r_f', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/17222>
+{'Id': 17222, 'NameAr': 'كرز للهدايا', 'Name': 'krz4gifts', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'krz4gifts@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/krz4gifts', 'Twiter': 'https://twitter.com/krz4gifts'}
+DEBUG: Crawled (200) <GET https://maroof.sa/191929> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/124911>
+{'Id': 124911, 'NameAr': 'فانسي وورك', 'Name': 'Fancy work', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Fancywork.a@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/fancywork.a', 'Twiter': 'https://twitter.com/FANCYWORK_A'}
+DEBUG: Scraped from <200 https://maroof.sa/91462>
+{'Id': 91462, 'NameAr': 'ران كروشيه', 'Name': 'Ran Crochet', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'No0osha21@windowslive.com', 'Website': None, 'Instgram': 'https://instagram.com/crochet_3333', 'Twiter': 'https://twitter.com/Crochet_3333'}
+DEBUG: Crawled (200) <GET https://maroof.sa/69756> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/124612> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/169670>
+{'Id': 169670, 'NameAr': 'صانعة للدمى و البهجة ', 'Name': 'HESSA DOLLS', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Lolla_1417@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hb.dolls', 'Twiter': 'https://twitter.com/HBdolls_'}
+DEBUG: Scraped from <200 https://maroof.sa/191929>
+{'Id': 191929, 'NameAr': 'غرزه حصه', 'Name': 'stitch his', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': '7sosty789@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/stitch.his/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/69756>
+{'Id': 69756, 'NameAr': 'ليتل ون', 'Name': 'Littleone', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'suka-94@windowslive.com', 'Website': None, 'Instgram': 'https://instagram.com/littleone_sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/124612>
+{'Id': 124612, 'NameAr': 'متجر أيقونة الإبداع ', 'Name': 'creativity icon  Shop', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'horei1997@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/ebdaa_12'}
+DEBUG: Crawled (200) <GET https://maroof.sa/119938> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/200930> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/175383> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/71316> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/119938>
+{'Id': 119938, 'NameAr': 'اللمسة الذهبية', 'Name': 'Golden touch1', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'xsloom09@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/be_cerfull_'}
+DEBUG: Scraped from <200 https://maroof.sa/200930>
+{'Id': 200930, 'NameAr': 'كلاب القوة ', 'Name': 'Power dogs ', 'TypeName': 'أخرى', 'Email': 'mhnd83404@gmail.com', 'Website': 'https://maroof.sa/200930', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/175383>
+{'Id': 175383, 'NameAr': 'نجم راك', 'Name': 'Rak27stars', 'TypeName': 'تصميم وطباعة', 'Email': 'Rak27star@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/rak27stars', 'Twiter': 'https://twitter.com/Rak27Stars'}
+DEBUG: Scraped from <200 https://maroof.sa/71316>
+{'Id': 71316, 'NameAr': 'يافا ', 'Name': 'YAFFA ', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'yaffa.98@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/yaffa.98', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/119056> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/47489> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/60608> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/119056>
+{'Id': 119056, 'NameAr': 'وسيطة تسوق مواقع عالميه ', 'Name': 'Intermediary shopping global sites', 'TypeName': 'أخرى', 'Email': 'Akq-21@hotmail.com', 'Website': 'https://twitter.com/__1696', 'Instgram': None, 'Twiter': 'https://twitter.com/__1696'}
+DEBUG: Scraped from <200 https://maroof.sa/47489>
+{'Id': 47489, 'NameAr': 'بنش أ فلورز', 'Name': 'Bunchaflowers', 'TypeName': 'أخرى', 'Email': 'Bunchaflower@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/bunchaflowersstore', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/151660> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/60608>
+{'Id': 60608, 'NameAr': 'مكاين الايسكريم قريت', 'Name': 'Great icecream machine', 'TypeName': 'أخرى', 'Email': 'Greatgcc@hotmail.com', 'Website': 'https://shipxshop.com/', 'Instgram': None, 'Twiter': 'https://twitter.com/snapinchina'}
+DEBUG: Scraped from <200 https://maroof.sa/151660>
+{'Id': 151660, 'NameAr': 'يوجد شخص منتحل لنا انتبهوا معلوماتنا تحت بس', 'Name': 'Only WhatsApp  055 647 8794', 'TypeName': 'أخرى', 'Email': 'Abeerstore2@gmail.com', 'Website': 'https://t.me/abeer_store', 'Instgram': 'https://instagram.com/abeer_store2', 'Twiter': 'https://twitter.com/Abeer_store1'}
+DEBUG: Crawled (200) <GET https://maroof.sa/38522> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/64156> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/73223> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/38522>
+{'Id': 38522, 'NameAr': 'متجر العراب', 'Name': 'Alarrab', 'TypeName': 'أخرى', 'Email': 'info@alarrab.com', 'Website': 'https://alarrab.com', 'Instgram': 'https://instagram.com/alarrabdotcom', 'Twiter': 'https://twitter.com/alarrabdotcom'}
+DEBUG: Crawled (200) <GET https://maroof.sa/141703> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/64156>
+{'Id': 64156, 'NameAr': 'متجر كريكي', 'Name': 'Cricky', 'TypeName': 'أخرى', 'Email': 'forshopsa@gmail.com', 'Website': 'https://crickystore.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/73223>
+{'Id': 73223, 'NameAr': 'متجر بيول', 'Name': 'pyul shop', 'TypeName': 'أخرى', 'Email': 'pyul.shop.jeddah@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/pyul_shop_jeddah', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/88089> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/141703>
+{'Id': 141703, 'NameAr': 'عدسات و فلاتر', 'Name': 'Lenses and filters', 'TypeName': 'تصميم وطباعة', 'Email': 'leenaalmazroui@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/lensesandfilters3', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/150917> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/88089>
+{'Id': 88089, 'NameAr': 'مؤسسة الشعلة النادرة التجارية', 'Name': 'flam rare', 'TypeName': 'أخرى', 'Email': 'sh3lh-1@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/shu3lah_', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/150917>
+{'Id': 150917, 'NameAr': 'مؤسسة فايزه حسن منصور العمودي', 'Name': 'Faiza Hassan Mansour Alamoudi Commercial Est', 'TypeName': 'أخرى', 'Email': 'info@alamoudifitness.com.sa', 'Website': 'https://alamoudifitness.com.sa/', 'Instgram': 'https://instagram.com/alamoudifitnesslife', 'Twiter': 'https://twitter.com/alamoudifitness'}
+DEBUG: Crawled (200) <GET https://maroof.sa/148496> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/11986> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/160929> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/216993> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/234021> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/148496>
+{'Id': 148496, 'NameAr': 'كوفي رستا', 'Name': 'Coffeerista ', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'Khanezann@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/coffeerista_', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/11986>
+{'Id': 11986, 'NameAr': 'متجر نقاط البيع الذكية', 'Name': 'smartspos', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'smartspos.com.sa@gmail.com', 'Website': 'http://www.smartspos.com.sa', 'Instgram': 'https://instagram.com/smartspos', 'Twiter': 'https://twitter.com/smartspos_sa'}
+DEBUG: Scraped from <200 https://maroof.sa/160929>
+{'Id': 160929, 'NameAr': 'حماية الشاشة الذكية ', 'Name': ' Smart Screen Protection ', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'screenprotectiontv@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/smartscreenprot', 'Twiter': 'https://twitter.com/SmartScreenProt'}
+DEBUG: Scraped from <200 https://maroof.sa/216993>
+{'Id': 216993, 'NameAr': ' متجر كورة بلانت', 'Name': 'KOORAPLANET', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'KOORAPLANET@hotmail.com', 'Website': 'https://kooraplanet.com/', 'Instgram': None, 'Twiter': 'https://twitter.com/Kooraplanet'}
+DEBUG: Crawled (200) <GET https://maroof.sa/27286> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/132580> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/234021>
+{'Id': 234021, 'NameAr': 'متجر سكواد', 'Name': 'Squad Games', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'info@squadgamess.com', 'Website': 'https://squadgamess.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/27286>
+{'Id': 27286, 'NameAr': 'احتياجات اللياقة', 'Name': 'FitNeeds', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'sales@fitneeds.sa', 'Website': 'http://fitneeds.sa', 'Instgram': 'https://instagram.com/fitneeds.sa', 'Twiter': 'https://twitter.com/Fitneeds_sa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/80859> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/228132> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/132580>
+{'Id': 132580, 'NameAr': 'صندوق الكمبيوتر', 'Name': 'PC BOX', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'pcboxsa@gmail.com', 'Website': 'https://salla.sa/stor_sa', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/80859>
+{'Id': 80859, 'NameAr': 'أملاكنا  مديروا العقار المشترك ', 'Name': 'amlakuna', 'TypeName': 'العقارات', 'Email': 'maarbaroomco@gmail.com', 'Website': 'https://twitter.com/Real_estate_aar?s=09', 'Instgram': None, 'Twiter': 'https://twitter.com/Real_estate_aar?s=09'}
+DEBUG: Scraped from <200 https://maroof.sa/228132>
+{'Id': 228132, 'NameAr': 'إعمـار الـعولمه العقاريه', 'Name': 'Real estate globalization ideas', 'TypeName': 'العقارات', 'Email': 'mutlaq1814@gmail.com', 'Website': 'https://api.whatsapp.com/message/G5K27DHJNOPNK1?autoload=1&app_absent=0', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/2852> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/218002> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/107878> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/2852>
+{'Id': 2852, 'NameAr': 'منصة والم العقارية', 'Name': 'wallim', 'TypeName': 'العقارات', 'Email': 'info@waalim.com', 'Website': 'http://www.waalim.com', 'Instgram': None, 'Twiter': 'https://twitter.com/waalimco'}
+DEBUG: Scraped from <200 https://maroof.sa/218002>
+{'Id': 218002, 'NameAr': 'تورتس', 'Name': 'TURTUS', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'info@TURTUSx.com', 'Website': 'https://www.turtusx.com', 'Instgram': 'https://instagram.com/turtusx', 'Twiter': 'https://twitter.com/TURTUSX'}
+DEBUG: Scraped from <200 https://maroof.sa/107878>
+{'Id': 107878, 'NameAr': 'بي ستور 12', 'Name': 'Bstore 12', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'Info@bstore12.com', 'Website': 'https://www.bstore12.com', 'Instgram': 'https://instagram.com/bstore_12', 'Twiter': 'https://twitter.com/B_store12'}
+DEBUG: Crawled (200) <GET https://maroof.sa/24835> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/25650> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/91080> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/24835>
+{'Id': 24835, 'NameAr': 'أبو فهد للتسويق العقاري', 'Name': None, 'TypeName': 'العقارات', 'Email': 'obed99@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/__abufahad__', 'Twiter': 'https://twitter.com/__abufahad__'}
+DEBUG: Scraped from <200 https://maroof.sa/25650>
+{'Id': 25650, 'NameAr': 'متجر أحمد للأنظمة الصوتية والألكترونيات', 'Name': ' ahmad audio systems store', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'info@ahmad-audio-systems.com', 'Website': 'http://ahmad-audio-systems.com', 'Instgram': 'https://instagram.com/ahmad_audio_systems', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/120345> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/91080>
+{'Id': 91080, 'NameAr': 'عقد للخدمات العقارية', 'Name': 'Aqd Real Estate Services', 'TypeName': 'العقارات', 'Email': 'Info@aqd.com.sa', 'Website': 'https://aqd.com.sa/', 'Instgram': 'https://instagram.com/aqd_co', 'Twiter': 'https://twitter.com/aqd_co'}
+DEBUG: Crawled (200) <GET https://maroof.sa/154863> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/124455> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/120345>
+{'Id': 120345, 'NameAr': 'مكتب املاك الدمام للعقارات ', 'Name': 'Amlak dammam estate', 'TypeName': 'العقارات', 'Email': 'hamza.almomen@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/p/CBbjgAyj0wC/?igshid=zi7unqlxsi0j', 'Twiter': 'https://twitter.com/amlak_dammam/status/1272279757590274048?s=21'}
+DEBUG: Scraped from <200 https://maroof.sa/154863>
+{'Id': 154863, 'NameAr': 'قفلاور', 'Name': 'Giflower', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'alosailan61@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/giflower1', 'Twiter': 'https://twitter.com/giflower1'}
+DEBUG: Scraped from <200 https://maroof.sa/124455>
+{'Id': 124455, 'NameAr': 'مؤسسة ممتلكات العربية للاستثمار العقاري ', 'Name': 'Arabian Properties ', 'TypeName': 'العقارات', 'Email': 'qusai@arabian.pro', 'Website': 'https://arabian.pro/', 'Instgram': 'https://instagram.com/arabianpropertiesksa', 'Twiter': 'https://twitter.com/ArabianProp'}
+DEBUG: Crawled (200) <GET https://maroof.sa/144487> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/25024> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/8616> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/134812> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/144487>
+{'Id': 144487, 'NameAr': 'الكيان الحديث', 'Name': 'alkayan the modern', 'TypeName': 'العقارات', 'Email': 'faisal.barg.6000@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/25024>
+{'Id': 25024, 'NameAr': 'أليكة', 'Name': 'Alyakkah', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'alyakkah.b@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/alyakkah.boutique', 'Twiter': 'https://twitter.com/Alyakkah_B'}
+DEBUG: Crawled (200) <GET https://maroof.sa/1272> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/8616>
+{'Id': 8616, 'NameAr': 'بصمة إعلام', 'Name': 'LMPRINT MEDIA', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'lmprintmedia.a@gmail.com', 'Website': 'https://wa.me/966554178956', 'Instgram': 'https://instagram.com/lmprint_me', 'Twiter': 'https://twitter.com/lmprint_me'}
+DEBUG: Scraped from <200 https://maroof.sa/134812>
+{'Id': 134812, 'NameAr': 'مؤسسة التصميم الإنشائي  للمقاولات', 'Name': None, 'TypeName': 'العقارات', 'Email': 'saeed@shq.sa', 'Website': 'https://www.shq.sa', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/25976> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/1272>
+{'Id': 1272, 'NameAr': 'ميمي بالونز', 'Name': 'MimiBalloons', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'MimiBalloons@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/deserve_surprise', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/25976>
+{'Id': 25976, 'NameAr': 'متجر الورد ', 'Name': None, 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'zahra85hilal@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/alward7113', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/181151> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/73863> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/71116> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/19960> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/231548> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/181151>
+{'Id': 181151, 'NameAr': 'متجر فيصل للخدمات الالكترونيه', 'Name': 'Faisal store DS', 'TypeName': 'حلول إلكترونية', 'Email': 'faisal7444@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/store.faisal9', 'Twiter': 'https://twitter.com/store_faisal'}
+DEBUG: Scraped from <200 https://maroof.sa/73863>
+{'Id': 73863, 'NameAr': 'مؤسسة إستبرق للهدايا', 'Name': 'Estabrq', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Estabrq.sa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/estabrq_sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/71116>
+{'Id': 71116, 'NameAr': 'حنين وسيطة مواقع عالمية', 'Name': 'Hanin online', 'TypeName': 'حلول إلكترونية', 'Email': 'hanin_online@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hanin.online', 'Twiter': 'https://twitter.com/hanin_online'}
+DEBUG: Crawled (200) <GET https://maroof.sa/13478> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/19960>
+{'Id': 19960, 'NameAr': 'وررد جدة', 'Name': 'Jeddah flower', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'slooome-90@hotmail.com', 'Website': 'Https://jeddahflower1.Com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/231548>
+{'Id': 231548, 'NameAr': 'متجر همتارو الإلكتروني', 'Name': 'Hamtaro STORE', 'TypeName': 'حلول إلكترونية', 'Email': 'hmtrstores@gmail.com', 'Website': 'https://hmtr-store.com', 'Instgram': 'https://www.instagram.com/_hmtro', 'Twiter': 'https://twitter.com/_hmtro'}
+DEBUG: Scraped from <200 https://maroof.sa/13478>
+{'Id': 13478, 'NameAr': 'عدسة عبدالله', 'Name': 'Abdullah less', 'TypeName': 'تصوير', 'Email': 'alkhudair111@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/alkhudair12'}
+DEBUG: Crawled (200) <GET https://maroof.sa/24718> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/43823> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/178017> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/32694> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/90949> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/91580> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/51280> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/24718>
+{'Id': 24718, 'NameAr': 'ستديو غادة', 'Name': 'Ghadah Studio', 'TypeName': 'تصوير', 'Email': 'Ghadah_h@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/ghadah_hamlan', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/43823>
+{'Id': 43823, 'NameAr': 'مارية السلامة', 'Name': 'Mariah alsalamah photography', 'TypeName': 'تصوير', 'Email': 'Miss.mlml.77@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/mariah_weddings', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/178017>
+{'Id': 178017, 'NameAr': 'ابجد هوز لخدمات الدعاية والاعلان', 'Name': 'AB HOLDING LTD', 'TypeName': 'حلول إلكترونية', 'Email': 'info@abcoms.net', 'Website': 'https://www.abcoms.net/services', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/32694>
+{'Id': 32694, 'NameAr': 'مهد', 'Name': 'Mahd', 'TypeName': 'تصوير', 'Email': 'mahd-ph@hotmail.com', 'Website': 'https://mahd-ph.weebly.com', 'Instgram': '..https://instagram.com/mahd.st', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/90949>
+{'Id': 90949, 'NameAr': 'المصوره غلا الحمد ', 'Name': ' gala wedding photography', 'TypeName': 'تصوير', 'Email': 'i.galaa7@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/i_gala', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/91580>
+{'Id': 91580, 'NameAr': 'مؤسسة وساطة', 'Name': 'WaSSaTH', 'TypeName': 'حلول إلكترونية', 'Email': 'WaSSaTHofficial@gmail.com', 'Website': 'https://www.wassath.com/', 'Instgram': 'https://instagram.com/wassath.official', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/51280>
+{'Id': 51280, 'NameAr': 'استديو ميساء للتصوير الفوتوغرافي', 'Name': 'Maysa photography', 'TypeName': 'تصوير', 'Email': 'Maysaaphotography@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/maysa_photography', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/132661> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/152531> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/165265> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/132661>
+{'Id': 132661, 'NameAr': 'مصورة اطفال وازياء نوره عبدالرحمن ', 'Name': 'Photography kids', 'TypeName': 'تصوير', 'Email': 'nviis12@hotmail.com', 'Website': 'https://www.instagram.com/_nqk/', 'Instgram': 'https://www.instagram.com/_nqk/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/152531>
+{'Id': 152531, 'NameAr': 'منيرة السبيعي للتصوير الفوتوغرافي', 'Name': 'Munerah photography', 'TypeName': 'تصوير', 'Email': 'mo0onirah@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/munerah_photographer', 'Twiter': 'https://twitter.com/Munerah_alsubie'}
+DEBUG: Scraped from <200 https://maroof.sa/165265>
+{'Id': 165265, 'NameAr': 'استديو أشواق للتصوير الفوتوغرافي', 'Name': 'Ashwaq Photography Studio', 'TypeName': 'تصوير', 'Email': 'Ashwaq.alharbi1@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/ashwaq.p.s', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/151479> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/151479>
+{'Id': 151479, 'NameAr': 'دورات التعليم عن بعد', 'Name': None, 'TypeName': 'أخرى', 'Email': 'eng.ibrahim.m.h@hotmail.com', 'Website': 'http://t.me/futurefirstSA', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/90785> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/86755> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/1294> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/84757> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/54713> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/90785>
+{'Id': 90785, 'NameAr': 'كيكوريشن', 'Name': 'cakoration', 'TypeName': 'أخرى', 'Email': 'adnan14123@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/cakoration', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/86755>
+{'Id': 86755, 'NameAr': 'سباما', 'Name': 'SPAMA', 'TypeName': 'أخرى', 'Email': 'admin@spama.com', 'Website': 'https://spama.com', 'Instgram': 'https://instagram.com/spamaksa', 'Twiter': 'https://twitter.com/SPAMAKSA'}
+DEBUG: Scraped from <200 https://maroof.sa/1294>
+{'Id': 1294, 'NameAr': 'متجر الصالح', 'Name': 'AlSaleh Store', 'TypeName': 'أخرى', 'Email': 'alsaleh.store@gmail.com', 'Website': 'https://Alsaleh.store', 'Instgram': 'https://instagram.com/alsaleh.store', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/84757>
+{'Id': 84757, 'NameAr': 'أدوربل تسوق', 'Name': 'Adorableshoppers', 'TypeName': 'أخرى', 'Email': 'adorableshoppers@gmail.com', 'Website': 'https://www.instagram.com/adorable_shoppers/', 'Instgram': 'https://www.instagram.com/adorable_shoppers/', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/54686> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40369> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/54713>
+{'Id': 54713, 'NameAr': 'ريفي', 'Name': 'Reefi', 'TypeName': 'أخرى', 'Email': 'info@reefi.me', 'Website': 'http://reefi.me', 'Instgram': 'https://instagram.com/reefi.me', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/54686>
+{'Id': 54686, 'NameAr': 'قروبات  ام ثامر الغذائيه', 'Name': 'um thamer', 'TypeName': 'أخرى', 'Email': 'Gharsa2030@hotmail.com', 'Website': 'https://salla.sa/food_seeds2030', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/40369>
+{'Id': 40369, 'NameAr': 'كويك للتوصيل والشحن', 'Name': 'Quick Logistics', 'TypeName': 'أخرى', 'Email': 'marketing@quick.sa.com', 'Website': 'www.quick.sa.com', 'Instgram': 'https://instagram.com/quick_ksa', 'Twiter': 'https://twitter.com/QUICK_KSA'}
+DEBUG: Crawled (200) <GET https://maroof.sa/127231> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/178204> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/8889> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=45&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/127231>
+{'Id': 127231, 'NameAr': 'وسيطة موقع سلفردج', 'Name': None, 'TypeName': 'تسويق إلكتروني', 'Email': 'fatimahdosry@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/selfrigeh'}
+DEBUG: Crawled (200) <GET https://maroof.sa/135874> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/178204>
+{'Id': 178204, 'NameAr': 'يوتيوب بريميوم', 'Name': 'YTTop', 'TypeName': 'تسويق إلكتروني', 'Email': 'Abdullah.althomali78@gmail.com', 'Website': 'https://yttoppremimum.com/', 'Instgram': None, 'Twiter': 'https://twitter.com/YTTop_'}
+DEBUG: Crawled (200) <GET https://maroof.sa/115049> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/215806> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/8889>
+{'Id': 8889, 'NameAr': 'هيلثي لايف', 'Name': 'Healthy life', 'TypeName': 'أخرى', 'Email': 'CEO@healthylife.sa', 'Website': 'https://healthylife.sa/', 'Instgram': 'https://instagram.com/health_2', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/135874>
+{'Id': 135874, 'NameAr': 'ذا يونيك ستور', 'Name': 'The Unique Store', 'TypeName': 'تسويق إلكتروني', 'Email': 'Yazhimself@gmail.com', 'Website': 'Https://salla.sa/myt.store', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/115049>
+{'Id': 115049, 'NameAr': 'وسيطةة للتسوق الالكتروني', 'Name': 'GH', 'TypeName': 'تسويق إلكتروني', 'Email': 'Ghahfc2@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/llgh97_', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/215806>
+{'Id': 215806, 'NameAr': 'أبريلا ستور', 'Name': None, 'TypeName': 'تسويق إلكتروني', 'Email': 'Abr085@gmail.com', 'Website': 'https://t.me/abrella_store', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/107585> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/47596> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/215803> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/41739> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40588> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/107585>
+{'Id': 107585, 'NameAr': 'هدايا شريف', 'Name': 'gifts sharif', 'TypeName': 'تسويق إلكتروني', 'Email': 'Sharif22346@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/gifts_sharif', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/208> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/47596>
+{'Id': 47596, 'NameAr': 'ناتسو', 'Name': 'Natsu Shop', 'TypeName': 'تسويق إلكتروني', 'Email': 'inatsustore@gmail.com', 'Website': 'https://salla.sa/natsu', 'Instgram': 'https://www.instagram.com/natsu.shop', 'Twiter': 'https://twitter.com/Natsushop18'}
+DEBUG: Scraped from <200 https://maroof.sa/215803>
+{'Id': 215803, 'NameAr': 'نايف الرويلي', 'Name': 'Nayef AlRuwaili', 'TypeName': 'تسويق إلكتروني', 'Email': 'NayefAlRuwaili@gmail.com', 'Website': 'https://t.me/Naef_S', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/41739>
+{'Id': 41739, 'NameAr': 'زراف', 'Name': 'zarav', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'the.zarav@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/_zarav_', 'Twiter': 'https://twitter.com/_Zarav_'}
+DEBUG: Scraped from <200 https://maroof.sa/40588>
+{'Id': 40588, 'NameAr': 'متجر سارا للتطريز', 'Name': 'SARA DESIGN', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'sara.design17@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/sara_design17', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/8222> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/208>
+{'Id': 208, 'NameAr': 'تخير', 'Name': 'T5ear store', 'TypeName': 'تسويق إلكتروني', 'Email': 'sales@t5ear.com', 'Website': 'http://www.t5ear.com/store/', 'Instgram': 'https://instagram.com/t5ear', 'Twiter': 'https://twitter.com/t5ear'}
+DEBUG: Crawled (200) <GET https://maroof.sa/172702> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/107642> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/8222>
+{'Id': 8222, 'NameAr': 'هنادي كروشية', 'Name': 'hanadicrochet', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'hanadi.a.r1982@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hanadicrochet', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/172702>
+{'Id': 172702, 'NameAr': 'مؤسسه هشام لبيع انارات الليد ', 'Name': 'Hisham led', 'TypeName': 'تسويق إلكتروني', 'Email': 'Hishamalreda@gmail.com', 'Website': 'https://instagram.com/hisham_led?igshid=6863l8tsxzr2', 'Instgram': 'https://instagram.com/hisham_led?igshid=6863l8tsxzr2', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/107642>
+{'Id': 107642, 'NameAr': 'رسائل خالدة', 'Name': 'rand shop4', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'rand1alromi@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/rand_shop4', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/40996> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=51&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/117128> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/176098> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/40996>
+{'Id': 40996, 'NameAr': 'غُرزات', 'Name': 'STITCHES', 'TypeName': 'الحرف والصناعات اليدوية', 'Email': 'Sogah38@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/beauty_embroidered', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/117128>
+{'Id': 117128, 'NameAr': 'مصممه داخلية', 'Name': 'Inter designer', 'TypeName': 'أثاث وديكور', 'Email': 'Interdesignerhd@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/designe__2020?igshid=497eyg5ugq5w', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/176098>
+{'Id': 176098, 'NameAr': 'متجر تدللي', 'Name': 'Pamperyourself shop', 'TypeName': 'أثاث وديكور', 'Email': 'Mzajrevi@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/pamperyourself_shop', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/149776> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/89030> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/149776>
+{'Id': 149776, 'NameAr': 'أحمد للتصاميم الخشبية', 'Name': "Ahmed's Wood Design", 'TypeName': 'أثاث وديكور', 'Email': 'craftedbyahmed@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/craftedbyahmed/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/89030>
+{'Id': 89030, 'NameAr': 'متجر منتظر', 'Name': 'Muntathar Store', 'TypeName': 'أثاث وديكور', 'Email': 'muntathar.store@gmail.com', 'Website': 'https://muntathar.com/', 'Instgram': 'https://instagram.com/muntathar_s', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/112807> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/170709> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/112807>
+{'Id': 112807, 'NameAr': 'مندوبكم', 'Name': 'Your representative', 'TypeName': 'أثاث وديكور', 'Email': 'info@mand0bcom.com', 'Website': 'https://mand0bcom.com', 'Instgram': None, 'Twiter': 'https://twitter.com/Mand0bcom'}
+DEBUG: Crawled (200) <GET https://maroof.sa/209784> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/170709>
+{'Id': 170709, 'NameAr': 'مؤسسة ريادة الإبداع للتجارة ', 'Name': None, 'TypeName': 'أثاث وديكور', 'Email': 'info@rb-ksa.com', 'Website': None, 'Instgram': 'https://instagram.com/rb.ksa.1', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/209784>
+{'Id': 209784, 'NameAr': 'دانتيل ديزاين', 'Name': 'dantiledesign', 'TypeName': 'أثاث وديكور', 'Email': 'h61878@gmail.com', 'Website': 'https://dantiledesigns.com/', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/40866> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/49576> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/40866>
+{'Id': 40866, 'NameAr': 'كارتن رول', 'Name': 'curtain roll', 'TypeName': 'أثاث وديكور', 'Email': 'Hishalsuliman@gmail.com', 'Website': 'http://www.curtain-roll.com/', 'Instgram': 'https://instagram.com/curtain_roll', 'Twiter': 'https://twitter.com/Curtain_roll'}
+DEBUG: Scraped from <200 https://maroof.sa/49576>
+{'Id': 49576, 'NameAr': 'شركة دقة لون للصناعة', 'Name': 'Color precision Industry Company', 'TypeName': 'أثاث وديكور', 'Email': 'info@cptltd.com', 'Website': 'http://cptltd.com/', 'Instgram': 'https://instagram.com/cptltd', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/27433> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/51094> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/115462> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/27433>
+{'Id': 27433, 'NameAr': 'محطات', 'Name': 'MHATAT', 'TypeName': 'أثاث وديكور', 'Email': 'info@mhatat.com', 'Website': 'https://www.mhatat.com', 'Instgram': 'https://instagram.com/mhatat_com', 'Twiter': 'https://twitter.com/MHATAT_COM'}
+DEBUG: Scraped from <200 https://maroof.sa/51094>
+{'Id': 51094, 'NameAr': 'جينسس السعودية', 'Name': 'Genesis KSA', 'TypeName': 'السيارات', 'Email': 'leemkarz@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/genesis_owners_ksa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/115462>
+{'Id': 115462, 'NameAr': 'الـغسان لإستيراد السيارات', 'Name': 'GZ Motors Exporters', 'TypeName': 'السيارات', 'Email': 'Ggz.deals@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/g.z.motors', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/60264> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/20402> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/170527> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/60264>
+{'Id': 60264, 'NameAr': 'داينمك شاين', 'Name': None, 'TypeName': 'السيارات', 'Email': 'monther258@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/monther258', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/20402>
+{'Id': 20402, 'NameAr': 'الدرع الصلب', 'Name': 'The solid shield', 'TypeName': 'السيارات', 'Email': 'The_solid_shield@hotmail.com', 'Website': 'https://www.drrr3.com/', 'Instgram': 'https://instagram.com/the_solid_shield', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/45522> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/140272> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/49510> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/170527>
+{'Id': 170527, 'NameAr': 'شركة قيراط للتجارة', 'Name': 'CARAT TRADING COMPANY', 'TypeName': 'السيارات', 'Email': 'carattradingco@outlook.sa', 'Website': 'https://carattradingco.com.sa/', 'Instgram': 'https://instagram.com/carattradingco', 'Twiter': 'https://twitter.com/CARATTRADINGCO'}
+DEBUG: Crawled (200) <GET https://maroof.sa/112595> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/45522>
+{'Id': 45522, 'NameAr': 'أدفانس أوتو كير', 'Name': 'CHEMICAL GUYS CERAMIC PRO', 'TypeName': 'السيارات', 'Email': 'advanceautocare.sa@gmail.com', 'Website': 'https://advanceautocare.sa.com/', 'Instgram': '..https://instagram.com/chemica', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/140272>
+{'Id': 140272, 'NameAr': 'مؤسسة عجلات الصلبة', 'Name': 'Solid wheels', 'TypeName': 'السيارات', 'Email': 'Dy5Dy@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/4x4ayman?igshid=kr76p0mgcg0w', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/49510>
+{'Id': 49510, 'NameAr': 'شركة موقع سيارة', 'Name': 'Syarah Limited', 'TypeName': 'السيارات', 'Email': 'MCI@syarah.com', 'Website': 'https://syarah.com', 'Instgram': None, 'Twiter': 'https://twitter.com/Syarah_ksa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/25856> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/112595>
+{'Id': 112595, 'NameAr': 'مؤسسة تطبيق لوري لتوجيه مركبات الاجرة', 'Name': 'Lory land Transportation Application Est', 'TypeName': 'السيارات', 'Email': 'info@loryapp.com', 'Website': 'https://loryapp.com.sa', 'Instgram': 'https://instagram.com/loryapp.sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/25856>
+{'Id': 25856, 'NameAr': 'قناة محمد بن عبد الله العشبان العقارية', 'Name': None, 'TypeName': 'العقارات', 'Email': 'alashban@hotmail.com', 'Website': 'https://t.me/aqaratalashban', 'Instgram': 'https://www.instagram.com/alashban1', 'Twiter': 'https://twitter.com/alashban1'}
+DEBUG: Crawled (200) <GET https://maroof.sa/112101> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/42176> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/30305> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/194611> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/112101>
+{'Id': 112101, 'NameAr': 'الأندلس للسجاد', 'Name': 'alandaluscarpet', 'TypeName': 'أثاث وديكور', 'Email': 'Andaluscarpet@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/alandaluscarpet', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/42176>
+{'Id': 42176, 'NameAr': 'التسوق من ايكيا', 'Name': None, 'TypeName': 'أثاث وديكور', 'Email': 'snnann0@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/ikea_store', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/30305>
+{'Id': 30305, 'NameAr': 'يروقان هوم', 'Name': 'YORGAN HOME', 'TypeName': 'أثاث وديكور', 'Email': 'yorgancollection@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/yorganhome', 'Twiter': 'https://twitter.com/yorganhome'}
+DEBUG: Scraped from <200 https://maroof.sa/194611>
+{'Id': 194611, 'NameAr': 'اضافة انيقه ', 'Name': 'elegant  add', 'TypeName': 'أثاث وديكور', 'Email': 'slafs6210@gmail.com', 'Website': 'https://www.instagram.com/elegant_add/', 'Instgram': 'https://www.instagram.com/elegant_add/', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/40212> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/117769> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/40212>
+{'Id': 40212, 'NameAr': 'مؤسسة دار المحترفون للمقاولات روائع ورق الجدران', 'Name': '', 'TypeName': 'أثاث وديكور', 'Email': 'professionalshouse2018@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/rwae3_jed', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/135802> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/43193> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/235945> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/117769>
+{'Id': 117769, 'NameAr': 'القيادة الليلية لاضاءة السيارات', 'Name': 'NIGHT DRIVE LED', 'TypeName': 'السيارات', 'Email': 'malhulaimi@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/135802>
+{'Id': 135802, 'NameAr': 'اكسسوارات سيارات نسائية', 'Name': "Lady's car accessories ", 'TypeName': 'السيارات', 'Email': 'ladys_car@hotmail.com', 'Website': 'https://salla.sa/ladys_car_accessories', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/43193>
+{'Id': 43193, 'NameAr': 'ويذ ان ديكور', 'Name': 'Within Decor', 'TypeName': 'أثاث وديكور', 'Email': 'Within.decor1@gmail.com', 'Website': 'https://www.instagram.com/within_decor/', 'Instgram': 'https://www.instagram.com/within_decor/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/235945>
+{'Id': 235945, 'NameAr': 'البيع بالجملة والتجزئة للدراجات النارية وقطع غياره', 'Name': 'Retail sale of motorcycles and spare parts', 'TypeName': 'السيارات', 'Email': 'Powersports22@hotmail.com', 'Website': 'https://powerspoort.com/ar/', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/89109> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/13387> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/89109>
+{'Id': 89109, 'NameAr': 'مكتب حسن هادي للتقييم العقاري', 'Name': 'Real estate evaluation', 'TypeName': 'العقارات', 'Email': 'hsn1088@hotmail.com', 'Website': 'https://www.facebook.com/hassan.h.999', 'Instgram': None, 'Twiter': 'https://twitter.com/hassan01985'}
+DEBUG: Scraped from <200 https://maroof.sa/13387>
+{'Id': 13387, 'NameAr': 'ريمنتيل', 'Name': 'Reemntelle', 'TypeName': 'أثاث وديكور', 'Email': 'info@reemntelle.com', 'Website': None, 'Instgram': 'https://instagram.com/reemntelle', 'Twiter': 'https://twitter.com/reemntelle'}
+DEBUG: Crawled (200) <GET https://maroof.sa/32776> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/2553> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/32776>
+{'Id': 32776, 'NameAr': 'للأرقام واللوحات المميزة، بيع وشراء', 'Name': 'Mosab For Special Numbers License Plates', 'TypeName': 'السيارات', 'Email': 'mosaab-1@hotmail.com', 'Website': 'https://haraj.com.sa/users/mosaab-1', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/2553>
+{'Id': 2553, 'NameAr': 'قشلان كارز لخدمات فحص السيارات في ارضها ', 'Name': 'Gashlan Carz', 'TypeName': 'السيارات', 'Email': 'Fjgashlan@gmail.com', 'Website': 'https://gashlancarz.business.site/', 'Instgram': 'https://instagram.com/gashlan.carz', 'Twiter': 'https://twitter.com/gashlancarz'}
+DEBUG: Crawled (200) <GET https://maroof.sa/96258> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/2591> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40878> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/41314> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/96258>
+{'Id': 96258, 'NameAr': 'متجر قطع غيار جينسس ', 'Name': 'Parts shop Hyundai Kia Genesis', 'TypeName': 'السيارات', 'Email': 'service.genesis.sa@gmail.com', 'Website': 'https://salla.sa/genesis.sa', 'Instgram': 'https://instagram.com/genesis.ksa1', 'Twiter': 'https://twitter.com/g80_sa'}
+DEBUG: Scraped from <200 https://maroof.sa/2591>
+{'Id': 2591, 'NameAr': 'متجر سوق الخليج', 'Name': 'gulfmarket', 'TypeName': 'السيارات', 'Email': 'gulfmarket.com.sa@gmail.com', 'Website': 'http://www.gulfmarket.com.sa', 'Instgram': 'https://instagram.com/gulfmarket.sa', 'Twiter': 'https://twitter.com/gulfmarketSA'}
+DEBUG: Scraped from <200 https://maroof.sa/40878>
+{'Id': 40878, 'NameAr': 'شركة عبدالعزيز السبيعي لاستيراد قطع غيار السيارات', 'Name': '', 'TypeName': 'السيارات', 'Email': 'abdulaziz.alsobeyee@gmail.com', 'Website': 'https://haraj.com.sa/1130091218', 'Instgram': 'https://www.instagram.com/_q33', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/115324> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/227285> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/41314>
+{'Id': 41314, 'NameAr': 'فولت للتمديدات والتجهيزات البريه', 'Name': 'VOLTAGE', 'TypeName': 'السيارات', 'Email': 'vooolt.12@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/voolt.12', 'Twiter': 'https://twitter.com/VOLT12DC'}
+DEBUG: Crawled (200) <GET https://maroof.sa/3009> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/129131> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=47&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/115324>
+{'Id': 115324, 'NameAr': 'ايكيا المدينة ', 'Name': 'ikeaalmadina', 'TypeName': 'أثاث وديكور', 'Email': 'abu.m7mmd0777@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/ikea.almadina', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/227285>
+{'Id': 227285, 'NameAr': 'ستار هومي', 'Name': 'starhomee', 'TypeName': 'أثاث وديكور', 'Email': 'starhomeeee@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/starhome_o', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/117141> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/3009>
+{'Id': 3009, 'NameAr': 'كاربون فايبر', 'Name': 'Carbon Fibre Auto', 'TypeName': 'السيارات', 'Email': 'carbonfibreauto@gmail.com', 'Website': 'http://carbonfibreauto.com', 'Instgram': None, 'Twiter': 'https://twitter.com/CarbonFibreAuto'}
+DEBUG: Scraped from <200 https://maroof.sa/129131>
+{'Id': 129131, 'NameAr': 'سعودي ويلز 2', 'Name': 'Ksajdmwheels2', 'TypeName': 'السيارات', 'Email': 'Ksa.jdm.wheels@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/ksa.jdm.wheels2?igshid=76ttqtp0pdtx', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/112263> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/117141>
+{'Id': 117141, 'NameAr': 'عمر الدرويش', 'Name': 'omar aldrwish', 'TypeName': 'العقارات', 'Email': 'ommmmmar55@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/omar85753'}
+DEBUG: Crawled (200) <GET https://maroof.sa/89024> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/1601> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=49&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/112263>
+{'Id': 112263, 'NameAr': 'فناء', 'Name': 'Fena', 'TypeName': 'العقارات', 'Email': 'fena.consult@gmail.com', 'Website': 'https://fena-sa.com', 'Instgram': None, 'Twiter': 'https://twitter.com/Fena_Consult'}
+DEBUG: Crawled (200) <GET https://maroof.sa/157288> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/89024>
+{'Id': 89024, 'NameAr': 'المسكان العقارية لتقديم الخدمات العقارية', 'Name': 'AlMouskan to provide real estate services', 'TypeName': 'العقارات', 'Email': 'hsn1088@hotmail.com', 'Website': 'https://www.facebook.com/-431203090385/', 'Instgram': None, 'Twiter': 'https://twitter.com/almouskan'}
+DEBUG: Scraped from <200 https://maroof.sa/1601>
+{'Id': 1601, 'NameAr': 'منزل جديد', 'Name': 'New House', 'TypeName': 'أثاث وديكور', 'Email': 'New_housee@hotmail.com', 'Website': None, 'Instgram': '..https://www.instagram.com/_ne', 'Twiter': 'https://twitter.com/new_housee'}
+DEBUG: Scraped from <200 https://maroof.sa/157288>
+{'Id': 157288, 'NameAr': 'ابو عبدالرحمن للخدمات العقاريه والخدمات العامه', 'Name': None, 'TypeName': 'العقارات', 'Email': 'faristtiger@hotmail.com', 'Website': None, 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/108599> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/20502> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/72900> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/108599>
+{'Id': 108599, 'NameAr': 'مكتب شرق الأحساء العقاري', 'Name': 'East AlAhsa real estate office', 'TypeName': 'العقارات', 'Email': 'kha987@hotmail.com', 'Website': 'https://www.snapchat.com/add/arkan.5', 'Instgram': 'https://instagram.com/arkan.5', 'Twiter': 'https://twitter.com/arkan510'}
+DEBUG: Crawled (200) <GET https://maroof.sa/15916> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=48&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/72735> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/20502>
+{'Id': 20502, 'NameAr': 'خبيرة المكياج نورة العريفي', 'Name': '', 'TypeName': 'كوافيرة و تجميل', 'Email': 'lawyer.noura@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/noraoraifi', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/72900>
+{'Id': 72900, 'NameAr': 'مدربة وخبيرة التجميل إيمان الغانم', 'Name': 'eman1artist', 'TypeName': 'كوافيرة و تجميل', 'Email': 'eman1artist@gmail.com', 'Website': 'https://www.instagram.com/eman1artist/', 'Instgram': 'https://www.instagram.com/eman1artist/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/15916>
+{'Id': 15916, 'NameAr': 'البيع المباشر للعقارات', 'Name': 'Direct Sale', 'TypeName': 'العقارات', 'Email': 'bakhsh@directsale.sa', 'Website': 'https://www.directsale.sa', 'Instgram': 'https://instagram.com/saudidirectsale', 'Twiter': 'https://twitter.com/SaudiDirectSale'}
+DEBUG: Scraped from <200 https://maroof.sa/72735>
+{'Id': 72735, 'NameAr': 'زيت الذهب', 'Name': 'Golden oil', 'TypeName': 'كوافيرة و تجميل', 'Email': 'zzz1081xx@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/b690', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/17402> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/42461> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/134013> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/72581> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/64629> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/17402>
+{'Id': 17402, 'NameAr': 'حناء المدينه طبيعي', 'Name': '', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Hena_tebah@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/hrofalhzn', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/42461>
+{'Id': 42461, 'NameAr': 'روزا سبا', 'Name': 'roza spa ', 'TypeName': 'كوافيرة و تجميل', 'Email': 'the.roza.spa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/roza.spa', 'Twiter': 'https://twitter.com/roza_spa'}
+DEBUG: Scraped from <200 https://maroof.sa/134013>
+{'Id': 134013, 'NameAr': 'كلاودز سبا', 'Name': 'Clouds Spa', 'TypeName': 'كوافيرة و تجميل', 'Email': 'cloudsspa1@gmail.cim', 'Website': None, 'Instgram': 'https://instagram.com/cloudsspa1?igshid=1hcww4hfbqs0h', 'Twiter': 'https://twitter.com/clouds_spa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/72581>
+{'Id': 72581, 'NameAr': 'زن سبا', 'Name': 'Zen Spa', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Zen.Spa.sa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/zen.spa.sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/64629>
+{'Id': 64629, 'NameAr': 'رموش لولو ', 'Name': 'Lululashes14 ', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Lulu.lashes14@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/lulu.lashes14', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/27327> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/24974> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/27327>
+{'Id': 27327, 'NameAr': 'بدر لبيع الأرقام المميزة', 'Name': '', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'info@shm.com.sa', 'Website': 'https://bader.im', 'Instgram': 'https://instagram.com/baderim', 'Twiter': 'https://twitter.com/baderim2'}
+DEBUG: Crawled (200) <GET https://maroof.sa/91668> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/176761> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/24974>
+{'Id': 24974, 'NameAr': 'مركزلمسة رنيم للتزيين النسائي', 'Name': '', 'TypeName': 'كوافيرة و تجميل', 'Email': 'w-m1399@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/i_ranim944', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/63174> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/91668>
+{'Id': 91668, 'NameAr': 'متحر لوبو', 'Name': 'Lobo', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'a7mad5253@gmail.com', 'Website': 'https://lobo8ksa.com/', 'Instgram': 'https://instagram.com/lobo8ksa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/176761>
+{'Id': 176761, 'NameAr': 'المتجر الذكى', 'Name': 'Smart Stores', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'sm4market@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/sm4ma', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/2676> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/140701> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/13558> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/63174>
+{'Id': 63174, 'NameAr': 'الزيت المثالي', 'Name': 'Theidealoil', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Altaef.J@gmail.com', 'Website': 'http://www.theidealoil-sa.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/2676>
+{'Id': 2676, 'NameAr': 'متجر بوح البدائل الذكية', 'Name': 'shop anker ahsa', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'shopankerahsa@gmail.com', 'Website': 'https://bohy11.com/', 'Instgram': 'https://instagram.com/ankerahsa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/140701>
+{'Id': 140701, 'NameAr': 'نيوتك', 'Name': 'Newtech', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'support@newtechstore.com', 'Website': 'https://sa.newtechstore.com', 'Instgram': 'https://instagram.com/newtech_me', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/13558>
+{'Id': 13558, 'NameAr': 'أراتوبيا', 'Name': 'Aratopia', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'info@aratopia.sa', 'Website': 'https://aratopia.sa', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/2809> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/2809>
+{'Id': 2809, 'NameAr': 'الشركة المتحدة للإلكترونيات', 'Name': 'United Electronic Co Extra', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'alsgour.a@extra.com', 'Website': 'http://www.extrastores.com', 'Instgram': 'https://instagram.com/extrastores', 'Twiter': 'https://twitter.com/eXtraStores'}
+DEBUG: Crawled (200) <GET https://maroof.sa/77092> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/1521> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/82537> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/91968> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/38682> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/77092>
+{'Id': 77092, 'NameAr': 'كارديال للساعات', 'Name': 'Cardial watches', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'cc@drama.com.sa', 'Website': 'https://cardial.sa/', 'Instgram': 'https://instagram.com/cardial_sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/1521>
+{'Id': 1521, 'NameAr': 'وقـت الفن', 'Name': 'ART Time', 'TypeName': 'تصميم وطباعة', 'Email': 'info@arttime.sa', 'Website': 'http://arttime.sa', 'Instgram': 'https://instagram.com/arttime_sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/82537>
+{'Id': 82537, 'NameAr': 'مؤسسة تقنية التوام لتقنية المعلومات', 'Name': 'twiintech', 'TypeName': 'تصميم وطباعة', 'Email': 'info@twiintech.com', 'Website': 'https://twiintech.com/', 'Instgram': 'https://instagram.com/twin_tech_est', 'Twiter': 'https://twitter.com/EstTwin'}
+DEBUG: Scraped from <200 https://maroof.sa/91968>
+{'Id': 91968, 'NameAr': 'اف بي', 'Name': 'Fpgold', 'TypeName': 'تصميم وطباعة', 'Email': 'Filter.party1@gmail.com', 'Website': 'https://salla.sa/fp.gold', 'Instgram': 'https://instagram.com/fp.gold', 'Twiter': 'https://twitter.com/filter_party'}
+DEBUG: Scraped from <200 https://maroof.sa/38682>
+{'Id': 38682, 'NameAr': 'مفكر انجاز', 'Name': '', 'TypeName': 'تصميم وطباعة', 'Email': 'enjaznotbook@gmail.com', 'Website': 'https://enjaznotbook.com', 'Instgram': 'https://www.instagram.com/enjaznotbook', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/17557> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/17557>
+{'Id': 17557, 'NameAr': 'أمل للشعر المستعار', 'Name': 'Amal hairextension', 'TypeName': 'كوافيرة و تجميل', 'Email': 'amool.ah@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/amal.hairextension', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/118842> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/209212> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/49404> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/72764> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/190585> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/39976> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=41&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/118842>
+{'Id': 118842, 'NameAr': 'ملاك حسن خبيرة مكياج', 'Name': 'Makeup artist Malak Hassan', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Hms.58585@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/malak_5oo', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/209212>
+{'Id': 209212, 'NameAr': 'مدربة مكياج دائم', 'Name': ' trainer permanent makeup', 'TypeName': 'كوافيرة و تجميل', 'Email': 'ghadah.alqarni@yahoo.com', 'Website': 'https://www.instagram.com/ghadah_a_beauty/?igshid=g75yfdjrdn8y', 'Instgram': 'https://www.instagram.com/ghadah_a_beauty/?igshid=g75yfdjrdn8y', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/49404>
+{'Id': 49404, 'NameAr': 'ساميه آل سعد ميكب ارتست ', 'Name': None, 'TypeName': 'كوافيرة و تجميل', 'Email': 'hamamt_salam@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/samiahalsaad', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/72764>
+{'Id': 72764, 'NameAr': 'كلايد إنكس', 'Name': 'Clyde Inks', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Khulud_work@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/clyde_inks', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/190585>
+{'Id': 190585, 'NameAr': 'منار خبيرة معالجات شعر وصبغات ', 'Name': 'Hair treatments and specialized dyes', 'TypeName': 'كوافيرة و تجميل', 'Email': 'manar513@hotmail.com', 'Website': 'https://www.instagram.com/manarhptm?r=nametag', 'Instgram': 'https://www.instagram.com/manarhptm?r=nametag', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/39976>
+{'Id': 39976, 'NameAr': 'أنا تقني', 'Name': 'Ana Teqani', 'TypeName': 'إلكترونيات واكسسورات', 'Email': 'abdulrahmanbarajjash@gmail.com', 'Website': 'https://anateqani.com/', 'Instgram': 'https://instagram.com/anateqani', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/82448> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/82448>
+{'Id': 82448, 'NameAr': 'حنا بستان المدينه', 'Name': None, 'TypeName': 'كوافيرة و تجميل', 'Email': 'hnhawfi2018@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/bostan_almdainah', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/47882> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/49395> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/104> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/24160> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=39&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/57099> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/47882>
+{'Id': 47882, 'NameAr': 'ارتست وعد الملوحي', 'Name': 'Artistwaadsa', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Usbrandsksa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/winked.ksa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/49395>
+{'Id': 49395, 'NameAr': 'سارة لمعالجة الشعر', 'Name': 'Sarah hair treatments', 'TypeName': 'كوافيرة و تجميل', 'Email': 'Sarah_Hair_Treatments@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/sarah_hair_treatments', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/104>
+{'Id': 104, 'NameAr': 'يو ايميج', 'Name': 'U image', 'TypeName': 'تصميم وطباعة', 'Email': 'info@uimage.net', 'Website': 'https://uimage.net', 'Instgram': None, 'Twiter': 'https://twitter.com/Uimage_net'}
+DEBUG: Scraped from <200 https://maroof.sa/24160>
+{'Id': 24160, 'NameAr': 'نلّي للعناية بجمالك', 'Name': 'nelly beauty expert', 'TypeName': 'كوافيرة و تجميل', 'Email': 'nelly.1409@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/nellybeauty2', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/57099>
+{'Id': 57099, 'NameAr': 'ابتسام انسبايريشن ', 'Name': 'ibtesam inspiration ', 'TypeName': 'تصميم وطباعة', 'Email': 'eaj.inspiration@gmail.com', 'Website': None, 'Instgram': '..https://instagram.com/eaj.ins', 'Twiter': 'https://twitter.com/eajinspiration'}
+DEBUG: Crawled (200) <GET https://maroof.sa/1323> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/63734> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/1323>
+{'Id': 1323, 'NameAr': 'هاجر آرت', 'Name': 'Hajer Art', 'TypeName': 'تصميم وطباعة', 'Email': 'hajer.e.alawadh@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hajer_art_sales', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/63734>
+{'Id': 63734, 'NameAr': 'فلاتر وعدسات السنابشات', 'Name': 'Dreamyfilters', 'TypeName': 'تصميم وطباعة', 'Email': 'Dreamy.filters@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/dreamy.filters', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/205> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/90277> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=34&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/205>
+{'Id': 205, 'NameAr': 'تصاميم انيقه', 'Name': 'Elegant Design', 'TypeName': 'تصميم وطباعة', 'Email': 'elegant.design17@gmail.com', 'Website': 'https://ed.net.sa/', 'Instgram': 'https://instagram.com/elegant_des17', 'Twiter': 'https://twitter.com/ELEGANT_DES17'}
+DEBUG: Scraped from <200 https://maroof.sa/90277>
+{'Id': 90277, 'NameAr': 'وتد', 'Name': 'Watad', 'TypeName': 'تصميم وطباعة', 'Email': 'Watadksa@gmail.com', 'Website': 'Https://www.watadksa.com', 'Instgram': 'https://instagram.com/watadksa', 'Twiter': 'https://twitter.com/watadksa'}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/140728> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/2786> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/140728>
+{'Id': 140728, 'NameAr': 'أسبار غ', 'Name': 'asbar g', 'TypeName': 'مستلزمات المرأة', 'Email': 'asbar.saa@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/asbar.g/', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/2786>
+{'Id': 2786, 'NameAr': 'متجر يستحقك', 'Name': 'Deserve you', 'TypeName': 'مستلزمات المرأة', 'Email': 'anamil2004@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/boutique_o', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/8648> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/8648>
+{'Id': 8648, 'NameAr': 'بوتيك جولين', 'Name': 'Joline Boutique', 'TypeName': 'مستلزمات المرأة', 'Email': 'jolineboutique@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/joline_boutique', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/86574> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/86675> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/86574>
+{'Id': 86574, 'NameAr': 'بي ماقنيفسنت ون', 'Name': '', 'TypeName': 'مستلزمات المرأة', 'Email': 'b_mag1@hotmail.com', 'Website': 'https://wa.me/15512082087', 'Instgram': 'https://www.instagram.com/b_magnificent1', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/63828> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/86675>
+{'Id': 86675, 'NameAr': 'البيلسان يو اس شوب ', 'Name': 'Albylasan us shop', 'TypeName': 'مستلزمات المرأة', 'Email': 'bylasan16@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/albylasan_us_shop', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/1045> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/63828>
+{'Id': 63828, 'NameAr': 'ريمالين', 'Name': 'RimaLeen', 'TypeName': 'مستلزمات المرأة', 'Email': 'Care@RimaLeen.com', 'Website': None, 'Instgram': 'https://instagram.com/rimaleenme', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/42109> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/1045>
+{'Id': 1045, 'NameAr': 'كيوت ستور', 'Name': 'Cutestore6', 'TypeName': 'مستلزمات المرأة', 'Email': 'aassaa112@hotmail.com', 'Website': 'http://www.cutestore6.com', 'Instgram': 'https://instagram.com/cutestore6', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/45585> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/42109>
+{'Id': 42109, 'NameAr': 'سبانقل', 'Name': 'Spangle', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'A-9oofi@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/spangle__', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/45585>
+{'Id': 45585, 'NameAr': 'ركن المذاق الفريد ', 'Name': 'Unique taste corner', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Almoghirah2000@hotmail.com', 'Website': 'http://www.uniquetastecorner.com', 'Instgram': 'https://instagram.com/unique_taste_corner', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/39622> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/20240> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/383> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/39622>
+{'Id': 39622, 'NameAr': 'اختيارات ريما', 'Name': 'Reema Selections', 'TypeName': 'مستلزمات المرأة', 'Email': 'Reema.selections@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/reema_selections', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/20240>
+{'Id': 20240, 'NameAr': 'المطبخ الافضل', 'Name': 'the best kitchen', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'the_best_kitchen@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/the_best_kitchen', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/383>
+{'Id': 383, 'NameAr': 'قولد اور سيلفر', 'Name': 'Gold or silver', 'TypeName': 'مستلزمات المرأة', 'Email': 'gold_or_silver@hotmail.com', 'Website': 'Http://www.goldorsilver-sa.com', 'Instgram': 'https://instagram.com/gold_or_silver', 'Twiter': 'https://twitter.com/gold_or_silver'}
+DEBUG: Crawled (200) <GET https://maroof.sa/117782> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/19791> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/129527> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/19811> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/42825> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/80284> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/117782>
+{'Id': 117782, 'NameAr': 'ماوي مور ', 'Name': 'Mauimore', 'TypeName': 'مستلزمات المرأة', 'Email': 'Mauimore@hotmail.com', 'Website': 'https://salla.sa/mauimore', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/10203> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/19791>
+{'Id': 19791, 'NameAr': 'اللفائف الجميلة', 'Name': 'Pretty rolls', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'bso0oo0om2014@gmail.com', 'Website': None, 'Instgram': '....https://instagram.com/prett', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/129527>
+{'Id': 129527, 'NameAr': 'مؤسسة بندقة للتجارة', 'Name': 'HAZELNUTSA', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Hazelnut.Ksa@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/19811>
+{'Id': 19811, 'NameAr': 'ديزرت', 'Name': 'Deseert', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'deseert-sc@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/dessert_sc', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/42825>
+{'Id': 42825, 'NameAr': 'جوهرة', 'Name': 'Johrh', 'TypeName': 'مستلزمات المرأة', 'Email': 'info@johrh.com', 'Website': 'https://johrh.com/', 'Instgram': 'https://instagram.com/johrh_com', 'Twiter': 'https://twitter.com/johrh_com'}
+DEBUG: Scraped from <200 https://maroof.sa/80284>
+{'Id': 80284, 'NameAr': 'فيروزة', 'Name': 'Ferozaheadpieces', 'TypeName': 'مستلزمات المرأة', 'Email': 'feroza.headpieces@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/feroza.headpieces', 'Twiter': 'https://twitter.com/FHeadpieces'}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/10203>
+{'Id': 10203, 'NameAr': 'ترف', 'Name': 'TARAF', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'info@tarafcoco.com', 'Website': 'www.tarafcoco.com', 'Instgram': 'https://instagram.com/tarafcoco', 'Twiter': 'https://twitter.com/tarafcoco'}
+DEBUG: Crawled (200) <GET https://maroof.sa/155018> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/39347> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/155018>
+{'Id': 155018, 'NameAr': 'اسوارتك', 'Name': 'aswartk', 'TypeName': 'مستلزمات المرأة', 'Email': 'e11e11e11@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/aswartk_33', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/39347>
+{'Id': 39347, 'NameAr': 'لورينزا', 'Name': 'Lorenzaksa', 'TypeName': 'مستلزمات المرأة', 'Email': 'lorenza.ksa@yahoo.com', 'Website': 'https://www.snapchat.com/add/lorenza.ksa', 'Instgram': 'https://www.instagram.com/lorenza.ksa', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/38241> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/15709> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/82316> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/15163> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/16201> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40437> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/38241>
+{'Id': 38241, 'NameAr': 'تركيبة ماما', 'Name': 'MAMAs ALCHEMY', 'TypeName': 'مستلزمات المرأة', 'Email': 'Mamasalchemy.sa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/mamas_alchemy', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/15709>
+{'Id': 15709, 'NameAr': 'كبيبة حايل', 'Name': 'Kbeba', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Kbeba_@hotmail.com', 'Website': 'https://www.snapchat.com/add/kbeba', 'Instgram': 'https://instagram.com/_kbeba', 'Twiter': 'https://twitter.com/_kbeba'}
+DEBUG: Scraped from <200 https://maroof.sa/82316>
+{'Id': 82316, 'NameAr': 'طبيبة و أكثر', 'Name': 'DRANDMORE', 'TypeName': 'مستلزمات المرأة', 'Email': 'budor.alamoudi1@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/dr.andmore', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/15163>
+{'Id': 15163, 'NameAr': 'متجر بيوتي ان لوف ', 'Name': 'beautyinloveshop', 'TypeName': 'مستلزمات المرأة', 'Email': 'beautyinloveshop1@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/beautyinlove_shop', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/16201>
+{'Id': 16201, 'NameAr': 'سترة ', 'Name': 'Sotrah', 'TypeName': 'مستلزمات المرأة', 'Email': 'sotrah_collection@hotmail.com', 'Website': None, 'Instgram': '..https://instagram.com/sotrah_', 'Twiter': 'https://twitter.com/Sotrah_sa'}
+DEBUG: Scraped from <200 https://maroof.sa/40437>
+{'Id': 40437, 'NameAr': 'طلباتي لمستحضرات التجميل', 'Name': 'My Orders', 'TypeName': 'مستلزمات المرأة', 'Email': 'myordersy@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/my.ordersy', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/48619> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/155724> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/12244> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40120> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/48619>
+{'Id': 48619, 'NameAr': 'جيفتو لوجي', 'Name': 'Gifiology', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'giftology.sa@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/giftology_sa', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/155724>
+{'Id': 155724, 'NameAr': 'متجر هديتك للهدايا', 'Name': 'Hadytk Shop For Gifts', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'hadytkshop@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hadytkshop', 'Twiter': 'https://twitter.com/hadytkshop'}
+DEBUG: Scraped from <200 https://maroof.sa/12244>
+{'Id': 12244, 'NameAr': 'مؤسسة مناسبتكم للانتاج الصوتي و المرئي', 'Name': '', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'munasbh@gmail.com', 'Website': 'http://www.masha3ercom.com', 'Instgram': 'https://instagram.com/munasbh', 'Twiter': 'https://twitter.com/munasbh'}
+DEBUG: Crawled (200) <GET https://maroof.sa/5376> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=26&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/40120>
+{'Id': 40120, 'NameAr': 'ازهار ليسه', 'Name': 'LISSE ', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'lisseflora@hotmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/lisseflora', 'Twiter': 'https://twitter.com/lisseflora1'}
+DEBUG: Scraped from <200 https://maroof.sa/5376>
+{'Id': 5376, 'NameAr': 'جلانز', 'Name': 'Glanz', 'TypeName': 'مستلزمات المرأة', 'Email': 'maha.ag2015@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/glanz.jewelry', 'Twiter': '..https://twitter.com/Glanzglan'}
+DEBUG: Crawled (200) <GET https://maroof.sa/7855> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/39658> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/20554> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/89205> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/128983> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/7855>
+{'Id': 7855, 'NameAr': 'مندي ستيشن', 'Name': 'MANDY STATION', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'MD@MandyStation.com', 'Website': 'www.MandyStation.com', 'Instgram': None, 'Twiter': 'https://twitter.com/mandy_sta'}
+DEBUG: Scraped from <200 https://maroof.sa/39658>
+{'Id': 39658, 'NameAr': ' خيوط الزعفران', 'Name': 'Saffron Threads', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'za3ffran.sa@gmail.com', 'Website': 'https://za3ffran.com', 'Instgram': 'https://instagram.com/za3ffran', 'Twiter': 'https://twitter.com/za3ffran'}
+DEBUG: Scraped from <200 https://maroof.sa/20554>
+{'Id': 20554, 'NameAr': 'دريم كرفان لتأجير لوازم الرحلات', 'Name': 'Dream caravan', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Caravans2016@hotmail.com', 'Website': None, 'Instgram': '..https://instagram.com/dream_c', 'Twiter': 'https://twitter.com/dream_caravan'}
+DEBUG: Scraped from <200 https://maroof.sa/89205>
+{'Id': 89205, 'NameAr': 'روشي فود', 'Name': 'RUCCI FOOD', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'ruccifood8007@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/ruccifood', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/128983>
+{'Id': 128983, 'NameAr': 'ميني شوقر', 'Name': 'MINI SUGAR', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'minisugar2020@gmail.com', 'Website': 'https://www.instagram.com/minisugarsa/', 'Instgram': 'https://www.instagram.com/minisugarsa/', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/16279> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/7752> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/16279>
+{'Id': 16279, 'NameAr': 'سمورز بار بوكس', 'Name': 'Smoresbar Box', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Ghadahbader@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/smoresbar.riyadh', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/7752>
+{'Id': 7752, 'NameAr': 'فانيلا سكاي', 'Name': 'Vanilla Sky', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Hello@vanillaskybyghadeer.com', 'Website': 'Https://www.vanillaskybyghadeer.com', 'Instgram': 'https://instagram.com/vssweets', 'Twiter': 'https://twitter.com/VSsweetS'}
+DEBUG: Crawled (200) <GET https://maroof.sa/117171> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/17032> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/233763> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/1590> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/40132> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/117171>
+{'Id': 117171, 'NameAr': 'بيكريك', 'Name': 'bakerique ', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'bakerique@gmail.com', 'Website': None, 'Instgram': None, 'Twiter': 'https://twitter.com/bakerique'}
+DEBUG: Scraped from <200 https://maroof.sa/17032>
+{'Id': 17032, 'NameAr': 'الأطعمة اللذيذة ', 'Name': 'Yummy Food', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'yummyfoods90@gmail.com', 'Website': 'https://www.instagram.com/yummy_f90/', 'Instgram': 'https://www.instagram.com/yummy_f90/', 'Twiter': 'https://twitter.com/Yummy_f90'}
+DEBUG: Scraped from <200 https://maroof.sa/233763>
+{'Id': 233763, 'NameAr': 'لذة التمر', 'Name': 'Taste fo dates', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'hana.m.aljadani@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/tasteof.dates?r=nametag', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/7814> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=23&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/1590>
+{'Id': 1590, 'NameAr': 'سكر ودقيق', 'Name': 'sugar and flour', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'sugar8flour@HOTMAIL.COM', 'Website': None, 'Instgram': 'https://instagram.com/sugarflour88', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/9095> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/40132>
+{'Id': 40132, 'NameAr': 'إبداعات حجازية', 'Name': 'hjzcreat', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'dsf2311@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hjzcreat', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/7814>
+{'Id': 7814, 'NameAr': 'موناليزا كيك', 'Name': 'Monalisa cake', 'TypeName': 'مطبخ و مخبوزات', 'Email': 'Monalisa_kitchen@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/monalisa_cake', 'Twiter': 'https://twitter.com/monalisa_cake'}
+DEBUG: Scraped from <200 https://maroof.sa/9095>
+{'Id': 9095, 'NameAr': 'دانتيلا كرافت', 'Name': 'Dantella craft', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Dantellacraft@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/dantella_craft', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/90969> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/69270> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/161064> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/90969>
+{'Id': 90969, 'NameAr': 'ستة وردات ', 'Name': 'SIX FLOWERS ', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'ahmadcome89@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/dammam_2020', 'Twiter': 'https://twitter.com/DammamDeliver'}
+DEBUG: Crawled (200) <GET https://maroof.sa/141238> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/69270>
+{'Id': 69270, 'NameAr': 'جيمرز أكاديمي', 'Name': 'Gamers Academy', 'TypeName': 'حلول إلكترونية', 'Email': 'GamersAcademyme@gmail.com', 'Website': 'https://gastore-sa.com', 'Instgram': 'https://instagram.com/gamersacademy.me', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/191467> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/161064>
+{'Id': 161064, 'NameAr': 'تك شوب', 'Name': 'Teck shop', 'TypeName': 'حلول إلكترونية', 'Email': 'Admin@itkshop.com', 'Website': 'https://itkshop.com/', 'Instgram': None, 'Twiter': 'https://twitter.com/pn44s'}
+DEBUG: Scraped from <200 https://maroof.sa/141238>
+{'Id': 141238, 'NameAr': 'كورد', 'Name': None, 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Chord.stu@gmail.com', 'Website': 'https://chord-studio.com/', 'Instgram': 'https://instagram.com/chord_studio', 'Twiter': 'https://twitter.com/Chord_Studio'}
+DEBUG: Crawled (200) <GET https://maroof.sa/2897> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=35&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/191467>
+{'Id': 191467, 'NameAr': 'مكتب سهلها للخدمات العامة', 'Name': 'Sahelha Office for General Services', 'TypeName': 'حلول إلكترونية', 'Email': 'SahelhaCare@gmail.com', 'Website': 'https://wa.me/message/AC2LBV6PEUSPE1', 'Instgram': None, 'Twiter': 'https://twitter.com/SahelhaCare'}
+DEBUG: Crawled (200) <GET https://maroof.sa/73872> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/93932> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/2897>
+{'Id': 2897, 'NameAr': 'مجموعة كاندلز', 'Name': 'Candles Group', 'TypeName': 'تخطيط مناسبات وحفلات', 'Email': 'Info@cnds.co', 'Website': 'http://cnds.co', 'Instgram': 'https://instagram.com/can_dles', 'Twiter': 'https://twitter.com/Can_dles'}
+DEBUG: Scraped from <200 https://maroof.sa/73872>
+{'Id': 73872, 'NameAr': 'سابلس', 'Name': None, 'TypeName': 'حلول إلكترونية', 'Email': 'sajjmw@gmail.com', 'Website': 'https://www.sajmw.com/', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/93932>
+{'Id': 93932, 'NameAr': 'متجر أبو السعود الإلكتروني', 'Name': 'N130x Store', 'TypeName': 'حلول إلكترونية', 'Email': 'support@n130x.com', 'Website': 'https://n130x.com', 'Instgram': 'https://instagram.com/n130x1', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/117172> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/89771> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/47526> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/117172>
+{'Id': 117172, 'NameAr': 'كود برو', 'Name': 'Code Pro', 'TypeName': 'حلول إلكترونية', 'Email': 'info@codeprostore.com', 'Website': 'https://codeprostore.com/', 'Instgram': None, 'Twiter': 'https://twitter.com/CodeProStore'}
+DEBUG: Crawled (200) <GET https://maroof.sa/212567> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/89771>
+{'Id': 89771, 'NameAr': 'مؤسسة كروت التجارية ', 'Name': 'Kroot Commercial Corporation', 'TypeName': 'حلول إلكترونية', 'Email': 'support@iProCart.net', 'Website': 'https://iProCart.net', 'Instgram': 'https://instagram.com/iprocart', 'Twiter': 'https://twitter.com/iprocart'}
+DEBUG: Scraped from <200 https://maroof.sa/47526>
+{'Id': 47526, 'NameAr': 'بحر السيرة الذاتية', 'Name': 'Sea Cv', 'TypeName': 'خدمات أكاديمية', 'Email': 'seacv.career@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/seacv.career', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/212567>
+{'Id': 212567, 'NameAr': 'المترجم الحديث  ترجمه طباعه تصوير خدمات الكترونية', 'Name': 'ALMOTARJIM AL HADITH PHOTOCOPYING EST', 'TypeName': 'حلول إلكترونية', 'Email': 'almutrjm.pst@gmail.com', 'Website': 'https://www.almotarjim.net', 'Instgram': None, 'Twiter': 'https://twitter.com/Almutrjm_1'}
+DEBUG: Crawled (200) <GET https://maroof.sa/218848> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/164240> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/446> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=24&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/218848>
+{'Id': 218848, 'NameAr': 'سعودي فولور', 'Name': 'Saudi Follower', 'TypeName': 'حلول إلكترونية', 'Email': 'saudifollower@gmail.com', 'Website': 'https://www.saudifollower.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/164240>
+{'Id': 164240, 'NameAr': 'نبحث للمساعدة', 'Name': 'research help', 'TypeName': 'خدمات أكاديمية', 'Email': 'r_helpstu@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/r_helpstu', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/446>
+{'Id': 446, 'NameAr': 'بريميرا', 'Name': 'primera', 'TypeName': 'حلول إلكترونية', 'Email': 'support@primera.app', 'Website': 'https://primera.app', 'Instgram': 'https://instagram.com/primera.app', 'Twiter': 'https://twitter.com/primeraApp'}
+DEBUG: Crawled (200) <GET https://maroof.sa/14782> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/14782>
+{'Id': 14782, 'NameAr': 'مركز بخش للتدريب', 'Name': 'BTFCenter', 'TypeName': 'خدمات أكاديمية', 'Email': 'bakhsh@BTFCenter.com', 'Website': 'http://www.btfcenter.com', 'Instgram': 'https://instagram.com/btfconsult', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/144435> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/81318> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/157728> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/166959> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/144435>
+{'Id': 144435, 'NameAr': 'دائما تستطيع', 'Name': 'Always u Can', 'TypeName': 'خدمات أكاديمية', 'Email': 'Alwaysucan100@gmail.com', 'Website': 'https://alwaysucan.com/', 'Instgram': 'https://instagram.com/0v9z', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/89336> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/81318>
+{'Id': 81318, 'NameAr': 'مركز رغده طلال حمزه صيرفي للتدريب ', 'Name': 'RagdaTalal  Hamza Sairafi Trining Center', 'TypeName': 'خدمات أكاديمية', 'Email': 'ragdatalal@gmail.com', 'Website': 'https://ragdasairafi369.com/', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/157728>
+{'Id': 157728, 'NameAr': 'إي أر إن للتعليم', 'Name': 'ARN4Learn', 'TypeName': 'خدمات أكاديمية', 'Email': 'arn4learn@gmail.com', 'Website': 'https://www.arn4learn.net', 'Instgram': None, 'Twiter': 'https://twitter.com/ARN4Learn'}
+DEBUG: Scraped from <200 https://maroof.sa/166959>
+{'Id': 166959, 'NameAr': 'الطالب المحترف', 'Name': 'Pro Student', 'TypeName': 'خدمات أكاديمية', 'Email': 'syed@pro-students.com', 'Website': 'https://pro-student.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/1854> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/89336>
+{'Id': 89336, 'NameAr': 'إديو داين للحلول الأكاديمية التعليمية', 'Name': 'EduDain', 'TypeName': 'خدمات أكاديمية', 'Email': 'DayiliWaseem@gmail.com', 'Website': 'https://EduDain.com', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/1854>
+{'Id': 1854, 'NameAr': 'أسس الخبراء التعليمية', 'Name': 'Osos Education', 'TypeName': 'خدمات أكاديمية', 'Email': 'info@osos-edu.com', 'Website': 'http://www.osos.net.sa/', 'Instgram': 'https://instagram.com/osos_edu', 'Twiter': 'https://twitter.com/Osos_edu'}
+DEBUG: Crawled (200) <GET https://maroof.sa/30308> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/192359> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/12073> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/25056> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/145229> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/30308>
+{'Id': 30308, 'NameAr': 'كاريري', 'Name': 'Careery', 'TypeName': 'خدمات أكاديمية', 'Email': 'support@careery.com', 'Website': 'http://www.careery.com', 'Instgram': 'https://instagram.com/careeryapp', 'Twiter': 'https://twitter.com/CareeryApp'}
+DEBUG: Crawled (200) <GET https://maroof.sa/2796> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/183283> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/192359>
+{'Id': 192359, 'NameAr': 'تصوير أيمن', 'Name': "Aymen's photography", 'TypeName': 'تصوير', 'Email': 'aymensphoto@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/photo.aymen', 'Twiter': 'https://twitter.com/PhotoAymen'}
+DEBUG: Scraped from <200 https://maroof.sa/12073>
+{'Id': 12073, 'NameAr': 'زوايا للتصوير الفوتوغرافي والانتاج ', 'Name': None, 'TypeName': 'تصوير', 'Email': 'zwaya4@outlook.com', 'Website': None, 'Instgram': 'https://instagram.com/zawaya4', 'Twiter': 'https://twitter.com/zawaya4'}
+DEBUG: Scraped from <200 https://maroof.sa/25056>
+{'Id': 25056, 'NameAr': 'شذى بكر', 'Name': 'shatha Bakor', 'TypeName': 'تصوير', 'Email': 'shatha.bakor22@hotmail.com', 'Website': 'https://shado0nah1.site123.me', 'Instgram': 'https://www.instagram.com/shatha.bakor', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/145229>
+{'Id': 145229, 'NameAr': 'نجوان لتصوير المواليد', 'Name': 'Newborn photography ', 'TypeName': 'تصوير', 'Email': 'NAJWAN.1415@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/najwan_photography', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/2796>
+{'Id': 2796, 'NameAr': 'رولا لتصوير الفوتوغرافي', 'Name': 'Roula Ali photography', 'TypeName': 'تصوير', 'Email': 'roula3li@hotmail.com', 'Website': 'http://www.roula3li.com', 'Instgram': 'https://www.instagram.com/roula3li', 'Twiter': 'https://twitter.com/ROULA3LI'}
+DEBUG: Scraped from <200 https://maroof.sa/183283>
+{'Id': 183283, 'NameAr': 'مصور إحتفالات', 'Name': 'Photographher', 'TypeName': 'تصوير', 'Email': 'Mr.Nahedh1@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/mr_nahedh', 'Twiter': 'https://twitter.com/Mr_Nahedh'}
+DEBUG: Crawled (200) <GET https://maroof.sa/64729> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/64729>
+{'Id': 64729, 'NameAr': 'متجر محمد الغامدي', 'Name': 'i96mg', 'TypeName': 'تسويق إلكتروني', 'Email': 'i96mgcare@hotmail.com', 'Website': 'https://salla.sa/i96mg.com', 'Instgram': 'https://instagram.com/i96mg', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/38061> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/42856> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=16&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/669> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/48246> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/44461> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/17184> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/38061>
+{'Id': 38061, 'NameAr': 'سمو الابداع للانتاج الفني', 'Name': 'sumo for media production', 'TypeName': 'تصوير', 'Email': 'sumo.prr@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/sumo_vc', 'Twiter': 'https://twitter.com/sumo_vc'}
+DEBUG: Scraped from <200 https://maroof.sa/42856>
+{'Id': 42856, 'NameAr': 'فوتوبوث ألڤين ', 'Name': '', 'TypeName': 'تصوير', 'Email': 'aftuw.p1@gmail.com', 'Website': None, 'Instgram': 'https://www.instagram.com/alvinphotobooth', 'Twiter': 'https://twitter.com/AlvinPhotobooth'}
+DEBUG: Scraped from <200 https://maroof.sa/669>
+{'Id': 669, 'NameAr': 'متجر نانو', 'Name': 'Nano eShop', 'TypeName': 'تسويق إلكتروني', 'Email': 'sales@nano-eshop.com', 'Website': 'http://www.nano-eshop.com', 'Instgram': 'https://instagram.com/nano_eshop', 'Twiter': 'https://twitter.com/Nano_eShop'}
+DEBUG: Scraped from <200 https://maroof.sa/48246>
+{'Id': 48246, 'NameAr': 'متجر حلا للبطاقات الرقميه', 'Name': 'Hala store for digital cards', 'TypeName': 'تسويق إلكتروني', 'Email': '7alastore3000@gmail.com', 'Website': 'https://halacard.net', 'Instgram': 'https://instagram.com/7alastoree', 'Twiter': 'https://twitter.com/7alaCards'}
+DEBUG: Crawled (200) <GET https://maroof.sa/48360> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/44461>
+{'Id': 44461, 'NameAr': 'متجرررر', 'Name': None, 'TypeName': 'تسويق إلكتروني', 'Email': 'hs.a@windowslive.com', 'Website': 'https://35degree.com/', 'Instgram': None, 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/17184>
+{'Id': 17184, 'NameAr': 'رسيل للهدايا', 'Name': 'Raseel Gift', 'TypeName': 'تسويق إلكتروني', 'Email': 'info@raseel.gift', 'Website': 'http://raseel.gift', 'Instgram': 'https://instagram.com/raseel_gift', 'Twiter': 'https://twitter.com/Raseel_gift'}
+DEBUG: Crawled (200) <GET https://maroof.sa/19814> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/160616> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/48360>
+{'Id': 48360, 'NameAr': 'ساسورا', 'Name': 'SASURA', 'TypeName': 'تسويق إلكتروني', 'Email': 'info@sasura.com', 'Website': 'http://www.sasura.com', 'Instgram': 'https://instagram.com/sasuracom', 'Twiter': 'https://twitter.com/SasuraCom'}
+DEBUG: Crawled (200) <GET https://maroof.sa/51267> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/118484> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/62533> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/96665> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/19814>
+{'Id': 19814, 'NameAr': 'المفكرون بامتياز ', 'Name': 'A Plus Thinkers', 'TypeName': 'خدمات أكاديمية', 'Email': 'aplusthinkers@gmail.com', 'Website': 'http://aplusthinkers.wixsite.com/ip-law-firm', 'Instgram': 'https://instagram.com/aplusthinkers', 'Twiter': 'https://twitter.com/aplusthinkers'}
+DEBUG: Scraped from <200 https://maroof.sa/160616>
+{'Id': 160616, 'NameAr': 'معهد  حنو للتدريب الالكتروني', 'Name': 'Hano Institute for Training', 'TypeName': 'خدمات أكاديمية', 'Email': 'hanoalharbi0@gmail.com', 'Website': None, 'Instgram': 'https://instagram.com/hano_alharbi0', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/51267>
+{'Id': 51267, 'NameAr': 'متجر إلقانس لوفرز الإلكتروني', 'Name': 'Elegance Lovers Online Shop', 'TypeName': 'تسويق إلكتروني', 'Email': 'alnassak@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/elshop1', 'Twiter': 'https://twitter.com/Elegance_Shop1'}
+DEBUG: Scraped from <200 https://maroof.sa/118484>
+{'Id': 118484, 'NameAr': 'اكاديمية انجلش ورلد', 'Name': 'Online English  teaching and training ', 'TypeName': 'خدمات أكاديمية', 'Email': 'Englishworldlearning@gmail.com', 'Website': 'http://www.my-englishworld.com/', 'Instgram': 'https://instagram.com/english_world_e', 'Twiter': 'https://twitter.com/Englishworlde1'}
+DEBUG: Scraped from <200 https://maroof.sa/62533>
+{'Id': 62533, 'NameAr': 'اشرف حميد الحارثي', 'Name': 'Coaching', 'TypeName': 'خدمات أكاديمية', 'Email': 'ashraf6321@gmail.com', 'Website': 'https://www.maroof.sa', 'Instgram': 'https://instagram.com/ashraf_alharthi_', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/96665>
+{'Id': 96665, 'NameAr': 'كلم', 'Name': 'Kalim', 'TypeName': 'خدمات أكاديمية', 'Email': 'hanouf.al-m@hotmail.com', 'Website': None, 'Instgram': 'https://instagram.com/sa_kalim', 'Twiter': None}
+DEBUG: Crawled (200) <GET https://maroof.sa/176129> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/176129>
+{'Id': 176129, 'NameAr': 'المدربة حنان المالكي', 'Name': 'Trainer Hanan AlMalki', 'TypeName': 'خدمات أكاديمية', 'Email': 'anamalkee@gmail.com', 'Website': 'https://maroof.sa/176129', 'Instgram': 'https://instagram.com/hananalmalki2018', 'Twiter': 'https://twitter.com/Hanann_2013?s=08'}
+DEBUG: Crawled (200) <GET https://maroof.sa/134782> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/82367> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Crawled (200) <GET https://maroof.sa/155760> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/134782>
+{'Id': 134782, 'NameAr': 'المعلمه تهاني ', 'Name': 'Teacher Tahani  ', 'TypeName': 'خدمات أكاديمية', 'Email': 'Tahani.101@hotmail.com', 'Website': 'https://www.instagram.com/t.k32133', 'Instgram': 'https://www.instagram.com/t.k32133', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/82367>
+{'Id': 82367, 'NameAr': 'أكاديمية الكوتشينج العربية ', 'Name': 'Arab Coaching Academy', 'TypeName': 'خدمات أكاديمية', 'Email': 'aymdab77@gmail.com', 'Website': 'http://arabiccoaching.com/ar/', 'Instgram': 'https://instagram.com/ayman_aldabuor', 'Twiter': None}
+DEBUG: Scraped from <200 https://maroof.sa/155760>
+{'Id': 155760, 'NameAr': 'اوفيشل في', 'Name': 'Official Fay', 'TypeName': 'خدمات أكاديمية', 'Email': 'Officialfayye@gmail.com', 'Website': 'https://officialfay.com/', 'Instgram': 'https://instagram.com/official.fayye', 'Twiter': 'https://twitter.com/officialfayye'}
+DEBUG: Crawled (200) <GET https://maroof.sa/24871> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=25&pageNumber=2&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/24871>
+{'Id': 24871, 'NameAr': ' مكتب آي دي إيه للدراسة في الخارج ', 'Name': 'IDE Education', 'TypeName': 'خدمات أكاديمية', 'Email': 'info@ide-sa.com', 'Website': 'ide-sa.com', 'Instgram': 'https://www.instagram.com/ideeducation', 'Twiter': 'https://twitter.com/IDEeducation'}
+DEBUG: Crawled (200) <GET https://maroof.sa/24519> (referer: https://maroof.sa/BusinessType/MoreBusinessList?businessTypeId=14&pageNumber=0&sortProperty=BestRating&desc=true)
+DEBUG: Scraped from <200 https://maroof.sa/24519>
+{'Id': 24519, 'NameAr': 'نايس ون', 'Name': 'Nice One', 'TypeName': 'تسويق إلكتروني', 'Email': 'info@niceonesa.com', 'Website': 'www.niceonesa.com', 'Instgram': '..https://instagram.com/niceone', 'Twiter': None}
+INFO: Closing spider (finished)
+INFO: Stored csv feed (300 items) in: test_file2.csv
+INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 256822,
+ 'downloader/request_count': 331,
+ 'downloader/request_method_count/GET': 331,
+ 'downloader/response_bytes': 5855750,
+ 'downloader/response_count': 331,
+ 'downloader/response_status_count/200': 331,
+ 'elapsed_time_seconds': 24.502811,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 8, 23, 45, 34, 816688),
+ 'httpcompression/response_bytes': 19283754,
+ 'httpcompression/response_count': 301,
+ 'item_scraped_count': 300,
+ 'log_count/INFO': 11,
+ 'memusage/max': 75018240,
+ 'memusage/startup': 75018240,
+ 'request_depth_max': 2,
+ 'response_received_count': 331,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 330,
+ 'scheduler/dequeued/memory': 330,
+ 'scheduler/enqueued': 330,
+ 'scheduler/enqueued/memory': 330,
+ 'start_time': datetime.datetime(2022, 6, 8, 23, 45, 10, 313877)}
+INFO: Spider closed (finished)
+INFO: Scrapy 2.6.1 started (bot: ma3rof)
+INFO: Versions: lxml 4.2.6.0, libxml2 2.9.8, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.7.13 (default, Apr 24 2022, 01:04:09) - [GCC 7.5.0], pyOpenSSL 22.0.0 (OpenSSL 3.0.3 3 May 2022), cryptography 37.0.2, Platform Linux-5.4.188+-x86_64-with-Ubuntu-18.04-bionic
