@@ -12,7 +12,7 @@ class ProdsIdsSpider(CrawlSpider):
         Rule(
             LinkExtractor(
                 allow=r'product-category/',
-                deny=['min_price', 'max_price', 'orderby', 'per_page', 'shop_view', 'add-to-cart'],
+                deny=['min_price', 'max_price', 'orderby', 'per_page', 'shop_view', 'add-to-cart', '_wpnonce', 'add_to_wishlist'],
             ),
             callback='parse_item',
             follow=True,
